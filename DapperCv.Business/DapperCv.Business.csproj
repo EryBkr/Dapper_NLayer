@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.1.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DapperCv.DataAccess\DapperCv.DataAccess.csproj" />
+    <ProjectReference Include="..\DapperCv.DTO\DapperCv.DTO.csproj" />
+    <ProjectReference Include="..\DapperCv.Entities\DapperCv.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
