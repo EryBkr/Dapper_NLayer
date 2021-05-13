@@ -1,0 +1,12 @@
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\bin\Debug\net5.0\DapperCv.Entities.deps.json
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\bin\Debug\net5.0\DapperCv.Entities.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\bin\Debug\net5.0\ref\DapperCv.Entities.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\bin\Debug\net5.0\DapperCv.Entities.pdb
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\DapperCv.Entities.csprojAssemblyReference.cache
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\DapperCv.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\DapperCv.Entities.AssemblyInfoInputs.cache
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\DapperCv.Entities.AssemblyInfo.cs
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\DapperCv.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\DapperCv.Entities.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\ref\DapperCv.Entities.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\DapperCv.Entities.pdb

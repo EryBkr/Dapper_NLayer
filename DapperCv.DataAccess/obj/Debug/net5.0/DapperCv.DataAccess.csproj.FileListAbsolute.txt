@@ -1,0 +1,15 @@
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\bin\Debug\net5.0\DapperCv.DataAccess.deps.json
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\bin\Debug\net5.0\DapperCv.DataAccess.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\bin\Debug\net5.0\ref\DapperCv.DataAccess.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\bin\Debug\net5.0\DapperCv.DataAccess.pdb
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\bin\Debug\net5.0\DapperCv.Entities.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\bin\Debug\net5.0\DapperCv.Entities.pdb
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\obj\Debug\net5.0\DapperCv.DataAccess.csprojAssemblyReference.cache
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\obj\Debug\net5.0\DapperCv.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\obj\Debug\net5.0\DapperCv.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\obj\Debug\net5.0\DapperCv.DataAccess.AssemblyInfo.cs
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\obj\Debug\net5.0\DapperCv.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\obj\Debug\net5.0\DapperCv.DataAccess.csproj.CopyComplete
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\obj\Debug\net5.0\DapperCv.DataAccess.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\obj\Debug\net5.0\ref\DapperCv.DataAccess.dll
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DataAccess\obj\Debug\net5.0\DapperCv.DataAccess.pdb
