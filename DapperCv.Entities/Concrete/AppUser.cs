@@ -10,6 +10,7 @@ namespace DapperCv.Entities.Concrete
     [Dapper.Contrib.Extensions.Table("AppUsers")]
     public class AppUser:IEntity
     {
+        [Dapper.Contrib.Extensions.Key]
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

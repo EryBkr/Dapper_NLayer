@@ -10,6 +10,7 @@ namespace DapperCv.Entities.Concrete
     [Dapper.Contrib.Extensions.Table("Experiences")]
     public class Experience:IEntity
     {
+        [Dapper.Contrib.Extensions.Key]
         public int Id { get; set; }
         public string Title { get; set; }
         public string SubTitle { get; set; }
