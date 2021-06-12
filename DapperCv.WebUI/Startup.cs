@@ -1,5 +1,6 @@
 using DapperCv.Business.IOC.Microsoft;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,6 +30,17 @@ namespace DapperCv.WebUI
 
             //DI Resolvers ý tanýmladýk ve Connection String için Configuration propertsini gönderdik
             services.AddCustomDependencies(Configuration);
+
+            //Auth Cookie Ekledik
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(opt=> 
+            {
+                opt.Cookie.HttpOnly = true;//Cookie eriþimine tarayýcý üzerinden eriþilemesin diye bu þekilde tanýmladýk
+                opt.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Auth/Login");//Giriþ yapýlmamýþ ise logine yönlendiriyoruz
+                opt.Cookie.Name = "DapperCookie";
+                opt.Cookie.SameSite = Microsoft.AspNetCore.Http.SameSiteMode.Strict;//Cookie kullanýmý diðer web sayfalarý için kapalý
+                opt.Cookie.SecurePolicy = Microsoft.AspNetCore.Http.CookieSecurePolicy.SameAsRequest;//HTTP ya da HTTPS ler kendi arasýnda iletiþim kurar
+                opt.ExpireTimeSpan = TimeSpan.FromDays(10); //Cookie yaþam süresi
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,7 +62,8 @@ namespace DapperCv.WebUI
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseAuthentication(); //Üyelik Sistemi
+            app.UseAuthorization(); //Yetkilendirme Sistemi
 
             app.UseEndpoints(endpoints =>
             {

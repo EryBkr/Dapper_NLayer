@@ -36,9 +36,13 @@ namespace DapperCv.Business.IOC.Microsoft
             //Aynı yöntem bunun içinde geçerlidir.
             services.AddScoped(typeof(IGenericService<>), typeof(GenericManager<>));
 
+            services.AddScoped<IUserDal, DpAppUserRepository>();
+            services.AddScoped<IAppUserService, AppUserManager>();
+
 
             //Validasyon Çözümleri
             services.AddTransient<IValidator<AppUserUpdateDto>, AppUserUpdateValidator>();
+            services.AddTransient<IValidator<AppUserPasswordDto>, AppUserPasswordValidator>();
 
             services.AddTransient<IValidator<CertificationAddDto>, CertificationAddValidator>();
             services.AddTransient<IValidator<CertificationUpdateDto>, CertificationUpdateValidator>();

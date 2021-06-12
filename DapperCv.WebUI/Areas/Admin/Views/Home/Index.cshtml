@@ -1,1 +1,69 @@
-﻿<h4>Admin Theme</h4>
+﻿@model AppUserUpdateModel
+
+<h4>Admin Theme</h4>
+
+<form asp-action="Index" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label>Adınız :</label>
+        <span class="text-danger" asp-validation-for="FirstName"></span>
+        <input class="form-control" asp-for="FirstName" />
+    </div>
+
+    <div class="form-group">
+        <label>Soyadınız :</label>
+        <span class="text-danger" asp-validation-for="Address"></span>
+        <input class="form-control" asp-for="LastName" />
+    </div>
+
+    <div class="form-group">
+        <label>Telefon :</label>
+        <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+        <input class="form-control" asp-for="PhoneNumber" />
+    </div>
+
+    <div class="form-group">
+        <label>Ön Yazı :</label>
+        <span class="text-danger" asp-validation-for="ShortDescription"></span>
+        <input class="form-control" asp-for="ShortDescription" />
+    </div>
+
+    <div class="form-group">
+        <label>Adres :</label>
+        <span class="text-danger" asp-validation-for="Address"></span>
+        <input class="form-control" asp-for="Address" />
+    </div>
+
+    <div class="form-group">
+        <label>Telefon :</label>
+        <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+        <input class="form-control" asp-for="PhoneNumber" />
+    </div>
+
+    <div class="form-group row">
+        <div class="col-6">
+            <label>Bir önceki resminiz</label>
+            @{
+                if (!string.IsNullOrWhiteSpace(Model.ImageUrl))
+                {
+                    <img src="~/img/@Model.ImageUrl" alt="Profil Resmi" style="height:4rem!important; width:5rem!important;" />
+                }
+                else
+                {
+                    <div class="alert alert-light text-center">
+                        Sistem Kayıtlı Resim Bulunamadı
+                    </div>
+                }
+            }
+        </div>
+        <div class="col-6">
+            <label>Resim Seç</label>
+            <input type="file" class="form-control form-control-file" asp-for="Picture" />
+        </div>
+       
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+</form>

@@ -9,4 +9,3 @@ C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\ne
 C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\DapperCv.Entities.dll
 C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\ref\DapperCv.Entities.dll
 C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\DapperCv.Entities.pdb
-C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.Entities\obj\Debug\net5.0\DapperCv.Entities.csprojAssemblyReference.cache

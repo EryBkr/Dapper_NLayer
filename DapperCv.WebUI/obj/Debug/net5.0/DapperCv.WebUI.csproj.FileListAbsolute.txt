@@ -132,3 +132,7 @@ C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.WebUI\obj\Debug\net5.
 C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.WebUI\bin\Debug\net5.0\libman.json
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.WebUI\obj\Debug\net5.0\Razor\Views\Auth\Login.cshtml.g.cs
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.WebUI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\ChangePassword.cshtml.g.cs
