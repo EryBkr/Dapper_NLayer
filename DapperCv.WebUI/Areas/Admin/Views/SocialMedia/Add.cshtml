@@ -1,0 +1,18 @@
+﻿@model SocialMediaIconAddDto
+
+<form asp-action="Add" method="post">
+    <div class="form-group">
+        <label>Icon Bilgisi</label>
+        <span class="text-danger" asp-validation-for="Icon"></span>
+        <input asp-for="Icon" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Link Bilgisi</label>
+        <span class="text-danger" asp-validation-for="Link"></span>
+        <input asp-for="Link" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+</form>

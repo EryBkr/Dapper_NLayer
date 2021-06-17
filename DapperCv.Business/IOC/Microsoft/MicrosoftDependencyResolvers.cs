@@ -39,6 +39,9 @@ namespace DapperCv.Business.IOC.Microsoft
             services.AddScoped<IUserDal, DpAppUserRepository>();
             services.AddScoped<IAppUserService, AppUserManager>();
 
+            services.AddScoped<ISocialMediaDal, DpSocialMediaRepository>();
+            services.AddScoped<ISocialMediaService, SocialMediaManager>();
+
 
             //Validasyon Çözümleri
             services.AddTransient<IValidator<AppUserUpdateDto>, AppUserUpdateValidator>();

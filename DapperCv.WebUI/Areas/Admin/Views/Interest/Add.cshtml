@@ -1,0 +1,13 @@
+﻿@model InterestsAddDto
+
+<form asp-action="Add" method="post">
+    <div class="form-group">
+        <label>Sertifika Bilgisi</label>
+        <span class="text-danger" asp-validation-for="Description"></span>
+        <input asp-for="Description" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+</form>

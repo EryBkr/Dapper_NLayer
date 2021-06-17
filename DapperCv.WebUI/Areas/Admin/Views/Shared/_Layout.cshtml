@@ -17,8 +17,14 @@
         <div class="bg-light border-right" id="sidebar-wrapper">
             <div class="sidebar-heading">CV App Admin Panel</div>
             <div class="list-group list-group-flush">
-                <a asp-action="Index" asp-controller="Home"  asp-area="Admin" class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="bilgilerim"?"active":"")">Bilgilerim</a>
-                <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="changePassword"?"active":"")" asp-action="ChangePassword" asp-controller="Home" asp-area="Admin" >Şifre Değiştir</a>
+                <a asp-action="Index" asp-controller="Home" asp-area="Admin" class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="bilgilerim"?"active":"")">Bilgilerim</a>
+                <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="changePassword"?"active":"")" asp-action="ChangePassword" asp-controller="Home" asp-area="Admin">Şifre Değiştir</a>
+                <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="certification"?"active":"")" asp-action="Index" asp-controller="Certification" asp-area="Admin">Sertifikalarım</a>
+                <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="education"?"active":"")" asp-action="Index" asp-controller="Education" asp-area="Admin">Eğitim Bilgilerim</a>
+                <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="experience"?"active":"")" asp-action="Index" asp-controller="Experience" asp-area="Admin">Tecrübeler</a>
+                <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="interest"?"active":"")" asp-action="Index" asp-controller="Interest" asp-area="Admin">İlgi Alanları</a>
+                <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="skill"?"active":"")" asp-action="Index" asp-controller="Skill" asp-area="Admin">Yetenekler</a>
+                <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="social"?"active":"")" asp-action="Index" asp-controller="SocialMedia" asp-area="Admin">Sosyal Medya</a>
             </div>
         </div>
         <!-- Page Content-->
@@ -41,7 +47,7 @@
                                 <a class="dropdown-item" href="#!">Action</a>
                                 <a class="dropdown-item" href="#!">Another action</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#!">Something else here</a>
+                                <a class="dropdown-item" asp-action="Logout" asp-controller="Auth" asp-area="">Çıkış Yap</a>
                             </div>
                         </li>
                     </ul>

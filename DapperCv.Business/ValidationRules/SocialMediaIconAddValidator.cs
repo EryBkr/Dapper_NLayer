@@ -12,7 +12,6 @@ namespace DapperCv.Business.ValidationRules
     {
         public SocialMediaIconAddValidator()
         {
-            RuleFor(i => i.AppUserId).InclusiveBetween(1, int.MaxValue).WithMessage("Kullanıcı Boş Olamaz");
             RuleFor(i => i.Icon).NotEmpty().WithMessage("Icon Boş Olamaz");
             RuleFor(i => i.Link).NotEmpty().WithMessage("Link Boş Olamaz");
         }

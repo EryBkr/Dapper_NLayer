@@ -41,6 +41,8 @@ namespace DapperCv.WebUI
                 opt.Cookie.SecurePolicy = Microsoft.AspNetCore.Http.CookieSecurePolicy.SameAsRequest;//HTTP ya da HTTPS ler kendi arasýnda iletiþim kurar
                 opt.ExpireTimeSpan = TimeSpan.FromDays(10); //Cookie yaþam süresi
             });
+
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
