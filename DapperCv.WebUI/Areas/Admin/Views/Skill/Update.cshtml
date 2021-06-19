@@ -3,10 +3,16 @@
 <form asp-action="Update" method="post">
 
     <div class="form-group">
-        <input type="hidden" asp-for="Id"  />
+        <input type="hidden" asp-for="Id" />
         <label>Yetenek Alanı</label>
         <span class="text-danger" asp-validation-for="Description"></span>
         <input asp-for="Description" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>İkon Alanı</label>
+        <span class="text-danger" asp-validation-for="Icon"></span>
+        <input asp-for="Icon" class="form-control" />
     </div>
 
     <div class="form-group">

@@ -68,8 +68,15 @@ using DapperCv.DTO.DTOs.SocialMediaIconDtos;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.WebUI\Areas\Admin\Views\_ViewImports.cshtml"
+using DapperCv.DTO.DTOs.ColorDto;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6550c8e9f7c27bd228f4148086ec661932b990d3", @"/Areas/Admin/Views/Certification/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"013125eecc4e7448e9ed5ef53c7d09c155e82b2c", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4c9c12fd508b976cb4b0c74d7673c1b239595f8a", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Certification_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<CertificationListDto>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Add", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -105,7 +112,7 @@ using DapperCv.DTO.DTOs.SocialMediaIconDtos;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n    <div class=\"text-right my-2\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6550c8e9f7c27bd228f4148086ec661932b990d37333", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6550c8e9f7c27bd228f4148086ec661932b990d37550", async() => {
                 WriteLiteral("Add Certification");
             }
             );
@@ -139,7 +146,7 @@ using DapperCv.DTO.DTOs.SocialMediaIconDtos;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                <td>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6550c8e9f7c27bd228f4148086ec661932b990d39447", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6550c8e9f7c27bd228f4148086ec661932b990d39664", async() => {
                 WriteLiteral("Güncelle");
             }
             );
@@ -173,7 +180,7 @@ using DapperCv.DTO.DTOs.SocialMediaIconDtos;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6550c8e9f7c27bd228f4148086ec661932b990d312003", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6550c8e9f7c27bd228f4148086ec661932b990d312220", async() => {
                 WriteLiteral("Delete");
             }
             );

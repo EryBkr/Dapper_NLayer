@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using DapperCv.DTO.DTOs.AppUserDtos;
 using DapperCv.DTO.DTOs.CertificationDtos;
+using DapperCv.DTO.DTOs.ColorDto;
 using DapperCv.DTO.DTOs.EducationDtos;
 using DapperCv.DTO.DTOs.ExperienceDtos;
 using DapperCv.DTO.DTOs.InterestDtos;
@@ -75,6 +76,9 @@ namespace DapperCv.WebUI.Mapping
 
             CreateMap<SocialMediaIcon, SocialMediaIconUpdateDto>();
             CreateMap<SocialMediaIconUpdateDto, SocialMediaIcon>();
+
+            CreateMap<ColorThemeUpdateDto, ColorTheme>();
+            CreateMap<ColorTheme, ColorThemeUpdateDto > ();
         }
     }
 }

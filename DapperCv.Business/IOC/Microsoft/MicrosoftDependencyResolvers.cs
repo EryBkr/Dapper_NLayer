@@ -5,6 +5,7 @@ using DapperCv.DataAccess.Concrete.Dapper;
 using DapperCv.DataAccess.Interfaces;
 using DapperCv.DTO.DTOs.AppUserDtos;
 using DapperCv.DTO.DTOs.CertificationDtos;
+using DapperCv.DTO.DTOs.ColorDto;
 using DapperCv.DTO.DTOs.EducationDtos;
 using DapperCv.DTO.DTOs.ExperienceDtos;
 using DapperCv.DTO.DTOs.InterestDtos;
@@ -64,6 +65,8 @@ namespace DapperCv.Business.IOC.Microsoft
 
             services.AddTransient<IValidator<SocialMediaIconAddDto>, SocialMediaIconAddValidator>();
             services.AddTransient<IValidator<SocialMediaIconUpdateDto>, SocialMediaIconUpdateValidator>();
+
+            services.AddTransient<IValidator<ColorThemeUpdateDto>, ColorThemeValidator>();
         }
     }
 }

@@ -10,5 +10,6 @@ namespace DapperCv.DTO.DTOs.SkillsDtos
     public class SkillAddDto:IDto
     {
         public string Description { get; set; }
+        public string Icon { get; set; }
     }
 }

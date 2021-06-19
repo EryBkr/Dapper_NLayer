@@ -1,0 +1,24 @@
+﻿@model List<SkillListDto>
+<section class="resume-section" id="skills">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Yeteneklerim</h2>
+        <div class="subheading mb-3">Yazılım Dilleri ve Araçlar</div>
+        <ul class="list-inline dev-icons">
+            @foreach (var item in Model.Select(i => i.Icon).ToList())
+            {
+                <li class="list-inline-item"><i class="@item"></i></li>
+            }
+        </ul>
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+            @foreach (var item in Model.Select(i => i.Description).ToList())
+            {
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    @item
+                </li>
+            }
+
+        </ul>
+    </div>
+</section>

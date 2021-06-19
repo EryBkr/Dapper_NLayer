@@ -10,16 +10,10 @@ namespace DapperCv.WebUI.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IGenericService<Skill> _skillService;
-
-        public HomeController(IGenericService<Skill> skillService)
-        {
-            _skillService = skillService;
-        }
-
+        //Uygulamamız tek sayfa üzerinden oluştuğu için her bir kısım ViewComponent aracılığıyla oluşturulmuştur
         public IActionResult Index()
         {
-            return View(_skillService.GetAll());
+            return View();
         }
     }
 }

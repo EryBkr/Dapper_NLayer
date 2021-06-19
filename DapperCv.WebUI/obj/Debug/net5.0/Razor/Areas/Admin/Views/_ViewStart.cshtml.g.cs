@@ -68,8 +68,15 @@ using DapperCv.DTO.DTOs.SocialMediaIconDtos;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.WebUI\Areas\Admin\Views\_ViewImports.cshtml"
+using DapperCv.DTO.DTOs.ColorDto;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3db38eb7b4fc6b5b7b59225c4aaadc1da658b7fc", @"/Areas/Admin/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"013125eecc4e7448e9ed5ef53c7d09c155e82b2c", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4c9c12fd508b976cb4b0c74d7673c1b239595f8a", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

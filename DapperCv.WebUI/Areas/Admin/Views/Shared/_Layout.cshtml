@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="/AdminTheme/css/styles.css" rel="stylesheet" />
+    @RenderSection("StyleSheets", false)
 </head>
 <body>
     <div class="d-flex" id="wrapper">
@@ -25,6 +26,7 @@
                 <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="interest"?"active":"")" asp-action="Index" asp-controller="Interest" asp-area="Admin">İlgi Alanları</a>
                 <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="skill"?"active":"")" asp-action="Index" asp-controller="Skill" asp-area="Admin">Yetenekler</a>
                 <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="social"?"active":"")" asp-action="Index" asp-controller="SocialMedia" asp-area="Admin">Sosyal Medya</a>
+                <a class="list-group-item list-group-item-action @((TempData["active"])?.ToString()=="color"?"active":"")" asp-action="Update" asp-controller="ColorTheme" asp-area="Admin">Side Bar Tema</a>
             </div>
         </div>
         <!-- Page Content-->
@@ -77,5 +79,6 @@
     <script src="~/twitter-bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="/AdminTheme/js/scripts.js"></script>
+    @RenderSection("Scripts",false)
 </body>
 </html>

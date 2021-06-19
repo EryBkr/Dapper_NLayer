@@ -9,3 +9,4 @@ C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DTO\obj\Debug\net5.0\
 C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DTO\obj\Debug\net5.0\DapperCv.DTO.dll
 C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DTO\obj\Debug\net5.0\ref\DapperCv.DTO.dll
 C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DTO\obj\Debug\net5.0\DapperCv.DTO.pdb
+C:\Users\Blackerback\OneDrive\Masaüstü\DapperCv\DapperCv.DTO\obj\Debug\net5.0\DapperCv.DTO.csprojAssemblyReference.cache

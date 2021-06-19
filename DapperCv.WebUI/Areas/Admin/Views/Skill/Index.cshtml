@@ -15,6 +15,7 @@
         {
             <tr>
                 <td>@item.Description</td>
+                <td>@item.Icon</td>
                 <td>
                     <a class="btn btn-success btn-sm" asp-action="Update" asp-controller="Skill" asp-route-id="@item.Id">Güncelle</a>
                     <a class="btn btn-danger btn-sm" onclick="return confirm('Emin misiniz?')" asp-action="Delete" asp-controller="Skill" asp-route-id="@item.Id">Delete</a>

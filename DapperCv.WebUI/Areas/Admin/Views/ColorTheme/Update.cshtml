@@ -1,0 +1,19 @@
+﻿@model ColorThemeUpdateDto
+
+<form asp-action="Update" class="mt-2">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label for="favcolor">Select your side bar color:</label>
+        <input id="select-color" type="color" asp-for="Color"><br><br>
+        <button type="submit" class="btn btn-warning">Kaydet</button>
+    </div>
+</form>
+
+<form asp-action="Default" class="mt-2">
+    <div class="form-group">
+        <button type="submit" class="btn btn-danger">Default Renk</button>
+    </div>
+</form>
+
+
+

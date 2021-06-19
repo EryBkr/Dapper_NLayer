@@ -1,6 +1,11 @@
 ﻿@model EducationAddDto
 
-<form asp-action="Add" method="post">
+<div class="text-left my-2">
+    <button id="end-date-add-button" class="btn btn-warning">Bitiş Tarihi Ekle</button>
+    <button hidden id="end-date-delete-button" class="btn btn-danger">Bitiş Tarihini İptal Et</button>
+</div>
+
+<form  asp-action="Add" method="post">
     <div class="form-group">
         <label>Title</label>
         <span class="text-danger" asp-validation-for="Title"></span>
@@ -21,13 +26,27 @@
         <span class="text-danger" asp-validation-for="StartDate"></span>
         <input asp-for="StartDate" class="form-control" />
     </div>
-    <div class="form-group">
-        <label>Bitiş</label>
-        <span class="text-danger" asp-validation-for="EndDate"></span>
-        <input asp-for="EndDate" class="form-control" />
-    </div>
-
-    <div class="form-group">
+    <div class="form-group" id="submit-button">
         <button type="submit" class="btn btn-primary">Kaydet</button>
     </div>
 </form>
+
+@section Scripts{
+
+    <script>
+       
+        $("#end-date-add-button").click(function () {
+            $("#submit-button").before('<div class="form-group" id="end-date"><label>Bitiş</label><span class="text-danger field-validation-valid" data-valmsg-for="EndtDate" data-valmsg-replace="true"></span><input class="form-control" type="datetime-local" data-val="true" data-val-required="Bitiş Tarihi Boş Olamaz" id="EndDate" name="EndDate" value="0001-01-01T00:00:00.000"></div>');
+            $(this).attr("hidden",true);
+            $("#end-date-delete-button").removeAttr("hidden");
+        });
+
+        $("#end-date-delete-button").click(function () {
+            $("#end-date").remove();
+            $(this).attr("hidden", true);
+            $("#end-date-add-button").removeAttr("hidden");
+        });
+    </script>
+    
+
+}
